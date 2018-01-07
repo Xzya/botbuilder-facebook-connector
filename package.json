@@ -1,0 +1,20 @@
+{
+  "name": "botbuilder-facebook-connector",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "Mihail Cristian Dumitru",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "dotenv-extended": "^2.0.1",
+    "messenger-bot": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.46",
+    "@types/sprintf-js": "^1.1.0"
+  }
+}
