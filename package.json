@@ -9,10 +9,12 @@
   "license": "MIT",
   "repository": "Xzya/botbuilder-facebook-connector",
   "dependencies": {
+    "async": "^2.6.0",
     "botbuilder": "^3.13.1",
     "messenger-bot": "^2.4.0"
   },
   "devDependencies": {
-    "@types/async": "^2.0.46"
+    "@types/async": "^2.0.46",
+    "@types/node": "^9.3.0"
   }
 }
