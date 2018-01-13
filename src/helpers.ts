@@ -96,12 +96,22 @@ export function IMessageToFBMessage(msg: IMessage) {
                             // TODO: - I'm not sure if this is correct
                             if (tc.tap) {
                                 el.defaultAction(
-                                    Button.webURL(tc.tap.title, tc.tap.value)
+                                    Button.webURL(null, tc.tap.value)
                                 )
                             }
 
                             genericElements.push(el.toElement());
 
+                            break;
+                        }
+
+                        case 'application/vnd.microsoft.card.signin': {
+                            console.error("Not implemented");
+                            break;
+                        }
+
+                        case 'application/vnd.microsoft.card.receipt': {
+                            console.error("Not implemented");
                             break;
                         }
 

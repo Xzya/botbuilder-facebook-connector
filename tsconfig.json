@@ -1,9 +1,11 @@
 {
     "compilerOptions": {
         "rootDir": "src",
-        "outDir": "dist",
+        "outDir": "lib",
         "module": "commonjs",
         "noImplicitAny": true,
+        "sourceMap": false,
+        "removeComments": true,
         "target": "es5"
     }
 }

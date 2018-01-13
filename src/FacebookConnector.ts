@@ -1,9 +1,7 @@
 import * as Bot from "messenger-bot";
 import { IConnector, IEvent, IMessage, IAddress, Message, HeroCard, IThumbnailCard, ICardAction, Keyboard, IAttachment, MemoryBotStorage } from "botbuilder";
-import { forEach, AsyncFunction } from "async";
 import * as async from "async";
 import { IMessageToFBMessage } from "./helpers";
-import * as builder from "botbuilder";
 
 export interface IFacebookConnectorSettings {
     token?: string;
